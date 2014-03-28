@@ -20,16 +20,17 @@ NSString *kSpotifyEventPlaybackChanged = @"com.spotify.client.PlaybackStateChang
 - (void)playbackStateChanged:(NSNotification *)notification {
     NSDictionary *info = [notification userInfo];
     
-    // Check the track is playing
-    if(![[info objectForKey:@"Player State"] isEqualToString:@"Playing"]) {
-        return;
-    }
+    NSString *trackString;
     
     // Available info
     NSLog(@"info=%@", info);
     
-    // Set up track string
-    NSString *trackString = [NSString stringWithFormat:@"♫ %@ - %@", [info valueForKey:@"Name"], [info valueForKey:@"Artist"]];
+    // Check the track is playing
+    if(![[info objectForKey:@"Player State"] isEqualToString:@"Playing"]) {
+        trackString = @"";
+    } else {
+        trackString = [NSString stringWithFormat:@"♫ %@ - %@", [info valueForKey:@"Name"], [info valueForKey:@"Artist"]];
+    }
     
     // Send the current track in Sqwiggle
     [STUserService updateWithTrack:trackString withSuccess:^(id responseObject) {
@@ -37,7 +38,6 @@ NSString *kSpotifyEventPlaybackChanged = @"com.spotify.client.PlaybackStateChang
     } failure:^(NSError *error) {
         NSLog(@"error %@", error);
     }];
-    
 }
 
 
