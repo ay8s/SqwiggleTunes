@@ -12,9 +12,11 @@
 @implementation STAppDelegate
 
 NSString *kSpotifyEventPlaybackChanged = @"com.spotify.client.PlaybackStateChanged";
+NSString *kiTunesEventPlayerInfo = @"com.apple.iTunes.playerInfo";
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackStateChanged:) name:kSpotifyEventPlaybackChanged object:nil];
+    [[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackStateChanged:) name:kiTunesEventPlayerInfo object:nil];
 }
 
 - (void)playbackStateChanged:(NSNotification *)notification {
