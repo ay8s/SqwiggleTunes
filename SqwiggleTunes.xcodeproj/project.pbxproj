@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94F9919118E518990039B8DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F9919018E518990039B8DD /* Cocoa.framework */; };
+		94F9919B18E518990039B8DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94F9919918E518990039B8DD /* InfoPlist.strings */; };
+		94F9919D18E518990039B8DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9919C18E518990039B8DD /* main.m */; };
+		94F991A118E518990039B8DD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 94F9919F18E518990039B8DD /* Credits.rtf */; };
+		94F991A418E518990039B8DD /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991A318E518990039B8DD /* STAppDelegate.m */; };
+		94F991A718E518990039B8DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F991A518E518990039B8DD /* MainMenu.xib */; };
+		94F991A918E518990039B8DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F991A818E518990039B8DD /* Images.xcassets */; };
+		94F991B018E518990039B8DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F991AF18E518990039B8DD /* XCTest.framework */; };
+		94F991B118E518990039B8DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F9919018E518990039B8DD /* Cocoa.framework */; };
+		94F991B918E518990039B8DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94F991B718E518990039B8DD /* InfoPlist.strings */; };
+		94F991BB18E518990039B8DD /* SqwiggleTunesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991BA18E518990039B8DD /* SqwiggleTunesTests.m */; };
+		94F991C718E520DB0039B8DD /* STAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991C618E520DB0039B8DD /* STAPIClient.m */; };
+		94F991CD18E5227E0039B8DD /* STUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991CC18E5227E0039B8DD /* STUserService.m */; };
+		B6D9643DE71241418F630B4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4A3472ED5D4CF1AD8AB24E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94F991B218E518990039B8DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F9918518E518990039B8DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F9918C18E518990039B8DD;
+			remoteInfo = SqwiggleTunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A4A3472ED5D4CF1AD8AB24E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AE457E5D8A475998244DAA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		94F9918D18E518990039B8DD /* SqwiggleTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqwiggleTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F9919018E518990039B8DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		94F9919318E518990039B8DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		94F9919418E518990039B8DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94F9919518E518990039B8DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94F9919818E518990039B8DD /* SqwiggleTunes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SqwiggleTunes-Info.plist"; sourceTree = "<group>"; };
+		94F9919A18E518990039B8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94F9919C18E518990039B8DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94F9919E18E518990039B8DD /* SqwiggleTunes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SqwiggleTunes-Prefix.pch"; sourceTree = "<group>"; };
+		94F991A018E518990039B8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		94F991A218E518990039B8DD /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		94F991A318E518990039B8DD /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		94F991A618E518990039B8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		94F991A818E518990039B8DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94F991AE18E518990039B8DD /* SqwiggleTunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqwiggleTunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F991AF18E518990039B8DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94F991B618E518990039B8DD /* SqwiggleTunesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SqwiggleTunesTests-Info.plist"; sourceTree = "<group>"; };
+		94F991B818E518990039B8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94F991BA18E518990039B8DD /* SqwiggleTunesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqwiggleTunesTests.m; sourceTree = "<group>"; };
+		94F991C518E520DB0039B8DD /* STAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAPIClient.h; sourceTree = "<group>"; };
+		94F991C618E520DB0039B8DD /* STAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAPIClient.m; sourceTree = "<group>"; };
+		94F991CB18E5227E0039B8DD /* STUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUserService.h; sourceTree = "<group>"; };
+		94F991CC18E5227E0039B8DD /* STUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUserService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F9918A18E518990039B8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F9919118E518990039B8DD /* Cocoa.framework in Frameworks */,
+				B6D9643DE71241418F630B4D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F991AB18E518990039B8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F991B118E518990039B8DD /* Cocoa.framework in Frameworks */,
+				94F991B018E518990039B8DD /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94F9918418E518990039B8DD = {
+			isa = PBXGroup;
+			children = (
+				94F9919618E518990039B8DD /* SqwiggleTunes */,
+				94F991B418E518990039B8DD /* SqwiggleTunesTests */,
+				94F9918F18E518990039B8DD /* Frameworks */,
+				94F9918E18E518990039B8DD /* Products */,
+				85AE457E5D8A475998244DAA /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		94F9918E18E518990039B8DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F9918D18E518990039B8DD /* SqwiggleTunes.app */,
+				94F991AE18E518990039B8DD /* SqwiggleTunesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94F9918F18E518990039B8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94F9919018E518990039B8DD /* Cocoa.framework */,
+				94F991AF18E518990039B8DD /* XCTest.framework */,
+				94F9919218E518990039B8DD /* Other Frameworks */,
+				1A4A3472ED5D4CF1AD8AB24E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94F9919218E518990039B8DD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94F9919318E518990039B8DD /* AppKit.framework */,
+				94F9919418E518990039B8DD /* CoreData.framework */,
+				94F9919518E518990039B8DD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		94F9919618E518990039B8DD /* SqwiggleTunes */ = {
+			isa = PBXGroup;
+			children = (
+				94F991A218E518990039B8DD /* STAppDelegate.h */,
+				94F991A318E518990039B8DD /* STAppDelegate.m */,
+				94F991C418E520BE0039B8DD /* Services */,
+				94F991A518E518990039B8DD /* MainMenu.xib */,
+				94F991A818E518990039B8DD /* Images.xcassets */,
+				94F9919718E518990039B8DD /* Supporting Files */,
+			);
+			path = SqwiggleTunes;
+			sourceTree = "<group>";
+		};
+		94F9919718E518990039B8DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F9919818E518990039B8DD /* SqwiggleTunes-Info.plist */,
+				94F9919918E518990039B8DD /* InfoPlist.strings */,
+				94F9919C18E518990039B8DD /* main.m */,
+				94F9919E18E518990039B8DD /* SqwiggleTunes-Prefix.pch */,
+				94F9919F18E518990039B8DD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94F991B418E518990039B8DD /* SqwiggleTunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				94F991BA18E518990039B8DD /* SqwiggleTunesTests.m */,
+				94F991B518E518990039B8DD /* Supporting Files */,
+			);
+			path = SqwiggleTunesTests;
+			sourceTree = "<group>";
+		};
+		94F991B518E518990039B8DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F991B618E518990039B8DD /* SqwiggleTunesTests-Info.plist */,
+				94F991B718E518990039B8DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94F991C418E520BE0039B8DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94F991C518E520DB0039B8DD /* STAPIClient.h */,
+				94F991C618E520DB0039B8DD /* STAPIClient.m */,
+				94F991CB18E5227E0039B8DD /* STUserService.h */,
+				94F991CC18E5227E0039B8DD /* STUserService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94F9918C18E518990039B8DD /* SqwiggleTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F991BE18E518990039B8DD /* Build configuration list for PBXNativeTarget "SqwiggleTunes" */;
+			buildPhases = (
+				A3B151CAC925488D922CCCA3 /* Check Pods Manifest.lock */,
+				94F9918918E518990039B8DD /* Sources */,
+				94F9918A18E518990039B8DD /* Frameworks */,
+				94F9918B18E518990039B8DD /* Resources */,
+				8E471CDED022496ABF42C608 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SqwiggleTunes;
+			productName = SqwiggleTunes;
+			productReference = 94F9918D18E518990039B8DD /* SqwiggleTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94F991AD18E518990039B8DD /* SqwiggleTunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F991C118E518990039B8DD /* Build configuration list for PBXNativeTarget "SqwiggleTunesTests" */;
+			buildPhases = (
+				94F991AA18E518990039B8DD /* Sources */,
+				94F991AB18E518990039B8DD /* Frameworks */,
+				94F991AC18E518990039B8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F991B318E518990039B8DD /* PBXTargetDependency */,
+			);
+			name = SqwiggleTunesTests;
+			productName = SqwiggleTunesTests;
+			productReference = 94F991AE18E518990039B8DD /* SqwiggleTunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94F9918518E518990039B8DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrew Yates";
+				TargetAttributes = {
+					94F991AD18E518990039B8DD = {
+						TestTargetID = 94F9918C18E518990039B8DD;
+					};
+				};
+			};
+			buildConfigurationList = 94F9918818E518990039B8DD /* Build configuration list for PBXProject "SqwiggleTunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94F9918418E518990039B8DD;
+			productRefGroup = 94F9918E18E518990039B8DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F9918C18E518990039B8DD /* SqwiggleTunes */,
+				94F991AD18E518990039B8DD /* SqwiggleTunesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94F9918B18E518990039B8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F9919B18E518990039B8DD /* InfoPlist.strings in Resources */,
+				94F991A918E518990039B8DD /* Images.xcassets in Resources */,
+				94F991A118E518990039B8DD /* Credits.rtf in Resources */,
+				94F991A718E518990039B8DD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F991AC18E518990039B8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F991B918E518990039B8DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E471CDED022496ABF42C608 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B151CAC925488D922CCCA3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94F9918918E518990039B8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F9919D18E518990039B8DD /* main.m in Sources */,
+				94F991CD18E5227E0039B8DD /* STUserService.m in Sources */,
+				94F991A418E518990039B8DD /* STAppDelegate.m in Sources */,
+				94F991C718E520DB0039B8DD /* STAPIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F991AA18E518990039B8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F991BB18E518990039B8DD /* SqwiggleTunesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94F991B318E518990039B8DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F9918C18E518990039B8DD /* SqwiggleTunes */;
+			targetProxy = 94F991B218E518990039B8DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94F9919918E518990039B8DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F9919A18E518990039B8DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94F9919F18E518990039B8DD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F991A018E518990039B8DD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		94F991A518E518990039B8DD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F991A618E518990039B8DD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		94F991B718E518990039B8DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F991B818E518990039B8DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94F991BC18E518990039B8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		94F991BD18E518990039B8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		94F991BF18E518990039B8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AE457E5D8A475998244DAA /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SqwiggleTunes/SqwiggleTunes-Prefix.pch";
+				INFOPLIST_FILE = "SqwiggleTunes/SqwiggleTunes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94F991C018E518990039B8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AE457E5D8A475998244DAA /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SqwiggleTunes/SqwiggleTunes-Prefix.pch";
+				INFOPLIST_FILE = "SqwiggleTunes/SqwiggleTunes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94F991C218E518990039B8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SqwiggleTunes.app/Contents/MacOS/SqwiggleTunes";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SqwiggleTunes/SqwiggleTunes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SqwiggleTunesTests/SqwiggleTunesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94F991C318E518990039B8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SqwiggleTunes.app/Contents/MacOS/SqwiggleTunes";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SqwiggleTunes/SqwiggleTunes-Prefix.pch";
+				INFOPLIST_FILE = "SqwiggleTunesTests/SqwiggleTunesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94F9918818E518990039B8DD /* Build configuration list for PBXProject "SqwiggleTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F991BC18E518990039B8DD /* Debug */,
+				94F991BD18E518990039B8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F991BE18E518990039B8DD /* Build configuration list for PBXNativeTarget "SqwiggleTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F991BF18E518990039B8DD /* Debug */,
+				94F991C018E518990039B8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F991C118E518990039B8DD /* Build configuration list for PBXNativeTarget "SqwiggleTunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F991C218E518990039B8DD /* Debug */,
+				94F991C318E518990039B8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94F9918518E518990039B8DD /* Project object */;
+}
