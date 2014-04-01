@@ -8,6 +8,16 @@
 
 #import "STAppDelegate.h"
 #import "STUserService.h"
+#import "AXStatusItemPopup.h"
+
+#import "STSetupViewController.h"
+#import "STTeamViewController.h"
+
+@interface STAppDelegate () {
+    AXStatusItemPopup *_statusItemPopup;
+}
+
+@end
 
 @implementation STAppDelegate
 
@@ -15,8 +25,18 @@ NSString *kSpotifyEventPlaybackChanged = @"com.spotify.client.PlaybackStateChang
 NSString *kiTunesEventPlayerInfo = @"com.apple.iTunes.playerInfo";
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    
     [[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackStateChanged:) name:kSpotifyEventPlaybackChanged object:nil];
     [[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackStateChanged:) name:kiTunesEventPlayerInfo object:nil];
+    
+    //STSetupViewController *setupViewController = [[STSetupViewController alloc] init];
+    STTeamViewController *teamViewController = [[STTeamViewController alloc] init];
+    
+    NSImage *image = [NSImage imageNamed:@"note"];
+    NSImage *alternateImage = [NSImage imageNamed:@"notegrey"];
+    
+    _statusItemPopup = [[AXStatusItemPopup alloc] initWithViewController:teamViewController image:image alternateImage:alternateImage];
+    
 }
 
 - (void)playbackStateChanged:(NSNotification *)notification {

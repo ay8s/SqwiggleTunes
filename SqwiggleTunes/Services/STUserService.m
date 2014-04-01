@@ -26,7 +26,7 @@
     
     // Add Email to parameters
     [parameters addEntriesFromDictionary:@{ @"message" : track }];
-    
+        
     [[STAPIClient sharedClient] PUT:@"users/me" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         success(responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {

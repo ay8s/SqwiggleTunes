@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		947D04B518EA720B008592F8 /* STTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D04B418EA720B008592F8 /* STTeamViewController.m */; };
+		947D04B718EA722E008592F8 /* STTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947D04B618EA722E008592F8 /* STTeamViewController.xib */; };
+		947D04BC18EA74E8008592F8 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 947D04B818EA74E8008592F8 /* note.png */; };
+		947D04BD18EA74E8008592F8 /* note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 947D04B918EA74E8008592F8 /* note@2x.png */; };
+		947D04BE18EA74E8008592F8 /* notegrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 947D04BA18EA74E8008592F8 /* notegrey.png */; };
+		947D04BF18EA74E8008592F8 /* notegrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 947D04BB18EA74E8008592F8 /* notegrey@2x.png */; };
+		947D04C218EA75AA008592F8 /* STUsersService.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D04C118EA75AA008592F8 /* STUsersService.m */; };
 		94F9919118E518990039B8DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F9919018E518990039B8DD /* Cocoa.framework */; };
 		94F9919B18E518990039B8DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94F9919918E518990039B8DD /* InfoPlist.strings */; };
 		94F9919D18E518990039B8DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9919C18E518990039B8DD /* main.m */; };
@@ -20,6 +27,9 @@
 		94F991BB18E518990039B8DD /* SqwiggleTunesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991BA18E518990039B8DD /* SqwiggleTunesTests.m */; };
 		94F991C718E520DB0039B8DD /* STAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991C618E520DB0039B8DD /* STAPIClient.m */; };
 		94F991CD18E5227E0039B8DD /* STUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991CC18E5227E0039B8DD /* STUserService.m */; };
+		94F991D218E532E30039B8DD /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991D118E532E30039B8DD /* AXStatusItemPopup.m */; };
+		94F991D518E534830039B8DD /* STSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F991D418E534830039B8DD /* STSetupViewController.m */; };
+		94F991D718E535C70039B8DD /* STSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F991D618E535C70039B8DD /* STSetupViewController.xib */; };
 		B6D9643DE71241418F630B4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4A3472ED5D4CF1AD8AB24E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +46,15 @@
 /* Begin PBXFileReference section */
 		1A4A3472ED5D4CF1AD8AB24E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AE457E5D8A475998244DAA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		947D04B318EA720B008592F8 /* STTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTeamViewController.h; sourceTree = "<group>"; };
+		947D04B418EA720B008592F8 /* STTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTeamViewController.m; sourceTree = "<group>"; };
+		947D04B618EA722E008592F8 /* STTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STTeamViewController.xib; sourceTree = "<group>"; };
+		947D04B818EA74E8008592F8 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		947D04B918EA74E8008592F8 /* note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note@2x.png"; sourceTree = "<group>"; };
+		947D04BA18EA74E8008592F8 /* notegrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notegrey.png; sourceTree = "<group>"; };
+		947D04BB18EA74E8008592F8 /* notegrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notegrey@2x.png"; sourceTree = "<group>"; };
+		947D04C018EA75AA008592F8 /* STUsersService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUsersService.h; sourceTree = "<group>"; };
+		947D04C118EA75AA008592F8 /* STUsersService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUsersService.m; sourceTree = "<group>"; };
 		94F9918D18E518990039B8DD /* SqwiggleTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqwiggleTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F9919018E518990039B8DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		94F9919318E518990039B8DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -59,6 +78,11 @@
 		94F991C618E520DB0039B8DD /* STAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAPIClient.m; sourceTree = "<group>"; };
 		94F991CB18E5227E0039B8DD /* STUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUserService.h; sourceTree = "<group>"; };
 		94F991CC18E5227E0039B8DD /* STUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUserService.m; sourceTree = "<group>"; };
+		94F991D018E532E30039B8DD /* AXStatusItemPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStatusItemPopup.h; sourceTree = "<group>"; };
+		94F991D118E532E30039B8DD /* AXStatusItemPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStatusItemPopup.m; sourceTree = "<group>"; };
+		94F991D318E534830039B8DD /* STSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSetupViewController.h; sourceTree = "<group>"; };
+		94F991D418E534830039B8DD /* STSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSetupViewController.m; sourceTree = "<group>"; };
+		94F991D618E535C70039B8DD /* STSetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSetupViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +153,10 @@
 			children = (
 				94F991A218E518990039B8DD /* STAppDelegate.h */,
 				94F991A318E518990039B8DD /* STAppDelegate.m */,
-				94F991C418E520BE0039B8DD /* Services */,
 				94F991A518E518990039B8DD /* MainMenu.xib */,
+				94F991CE18E532B30039B8DD /* Views */,
+				94F991C418E520BE0039B8DD /* Services */,
+				94F991CF18E532C40039B8DD /* 3rd Party */,
 				94F991A818E518990039B8DD /* Images.xcassets */,
 				94F9919718E518990039B8DD /* Supporting Files */,
 			);
@@ -172,10 +198,38 @@
 			children = (
 				94F991C518E520DB0039B8DD /* STAPIClient.h */,
 				94F991C618E520DB0039B8DD /* STAPIClient.m */,
+				947D04C018EA75AA008592F8 /* STUsersService.h */,
+				947D04C118EA75AA008592F8 /* STUsersService.m */,
 				94F991CB18E5227E0039B8DD /* STUserService.h */,
 				94F991CC18E5227E0039B8DD /* STUserService.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		94F991CE18E532B30039B8DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94F991D318E534830039B8DD /* STSetupViewController.h */,
+				94F991D418E534830039B8DD /* STSetupViewController.m */,
+				94F991D618E535C70039B8DD /* STSetupViewController.xib */,
+				947D04B318EA720B008592F8 /* STTeamViewController.h */,
+				947D04B418EA720B008592F8 /* STTeamViewController.m */,
+				947D04B618EA722E008592F8 /* STTeamViewController.xib */,
+				947D04B818EA74E8008592F8 /* note.png */,
+				947D04B918EA74E8008592F8 /* note@2x.png */,
+				947D04BA18EA74E8008592F8 /* notegrey.png */,
+				947D04BB18EA74E8008592F8 /* notegrey@2x.png */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94F991CF18E532C40039B8DD /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				94F991D018E532E30039B8DD /* AXStatusItemPopup.h */,
+				94F991D118E532E30039B8DD /* AXStatusItemPopup.m */,
+			);
+			path = "3rd Party";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +311,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F991D718E535C70039B8DD /* STSetupViewController.xib in Resources */,
 				94F9919B18E518990039B8DD /* InfoPlist.strings in Resources */,
 				94F991A918E518990039B8DD /* Images.xcassets in Resources */,
 				94F991A118E518990039B8DD /* Credits.rtf in Resources */,
+				947D04BE18EA74E8008592F8 /* notegrey.png in Resources */,
+				947D04BF18EA74E8008592F8 /* notegrey@2x.png in Resources */,
+				947D04B718EA722E008592F8 /* STTeamViewController.xib in Resources */,
 				94F991A718E518990039B8DD /* MainMenu.xib in Resources */,
+				947D04BD18EA74E8008592F8 /* note@2x.png in Resources */,
+				947D04BC18EA74E8008592F8 /* note.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +374,12 @@
 			files = (
 				94F9919D18E518990039B8DD /* main.m in Sources */,
 				94F991CD18E5227E0039B8DD /* STUserService.m in Sources */,
+				947D04B518EA720B008592F8 /* STTeamViewController.m in Sources */,
+				94F991D218E532E30039B8DD /* AXStatusItemPopup.m in Sources */,
 				94F991A418E518990039B8DD /* STAppDelegate.m in Sources */,
+				947D04C218EA75AA008592F8 /* STUsersService.m in Sources */,
 				94F991C718E520DB0039B8DD /* STAPIClient.m in Sources */,
+				94F991D518E534830039B8DD /* STSetupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
